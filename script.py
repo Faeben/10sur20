@@ -4,7 +4,7 @@
 def exo1():
     i = 0
     while i <= 500:
-        print("je dois faire des sauvegardes réguliéres de mes fichiets")
+        print("je dois faire des sauvegardes réguliéres de mes fichiers")
         i = i + 1
 
 exo1()
@@ -12,7 +12,7 @@ exo1()
 
 def exo1bis():
     for i in range(500):
-        print("je dois faire des sauvegardes réguliéres de mes fichiets")
+        print("je dois faire des sauvegardes réguliéres de mes fichiers")
 
 exo1bis()
 '''
@@ -146,4 +146,25 @@ def exo11():
     print("Prix HT :", nbr*euro)
     print("Prix TTC :", tva)
 
-exo11() '''
+exo11()
+'''
+
+
+
+def exo100():
+    nbr = int(input("Combien as tu d'articles?"))
+    dif = int(input("As tu des articles différents?"))
+    if dif ==
+
+    elif dif ==
+        euro = int(input("Combien coutent t'ils à l'unité?"))
+        prixht = nbr * euro
+        tva = prixht * 1.20
+        print("Nombre d'articles:", nbr)
+        print("Prix HT :", nbr * euro)
+        print("Prix TTC :", tva)
+
+   
+
+exo100()
+
